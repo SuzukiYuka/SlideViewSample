@@ -8,7 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    IBOutlet UIView *aView;
+    
+    //タップした時の座標を保存する
+    CGFloat x;
+    CGFloat y;
+}
 
 
 @end
